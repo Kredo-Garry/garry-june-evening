@@ -1,0 +1,58 @@
+/* SMALL ICONS */
+
+/* 
+    Header Navigation Icons
+ */
+ .icon-sm{
+    font-size: 2rem;
+ }
+
+ /* Modal Image */
+ /* .image-lg{
+   width: 18rem;
+   height: 18rem;
+   object-fit: cover;
+ } */
+
+ /* Heart Icon */
+ .fa-heart{
+   font-size: 1.5rem;
+ }
+
+ /* Date */
+ .xsmall{
+   font-size: 0.65rem;
+ }
+
+ /* Make the User profile image bigger */
+ .icon-lg{
+  font-size: 9rem;
+ }
+
+ .grid-img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+ }
+
+ .avatar-lg{
+    width: 9rem;
+    height: 9rem;
+    object-fit: cover;
+ }
+
+ .avatar-sm{
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+ }
+
+ .avatar-md{
+    width: 3.5rem;
+    height: 3.5rem;
+    object-fit: cover;
+ }
+
+ .icon-md{
+    font-size: 3.5rem; 
+ }

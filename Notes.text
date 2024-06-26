@@ -1,0 +1,41 @@
+Next: To continue on: Likes---> Post model relationship
+************************************************************
+
+SoftDeletes - What is a softdeletes?
+Answer: Soft delete is like deleting a record from the application, but the data
+        are still intact/saved in the database.
+
+To apply soft delete. We have to add a "deleted_at" column in our table
+This column "deleted_at" will hold the date and time when the user is soft deleted
+
+****************************************************************************************
+
+
+Separate the Admin from the Regular User
+
+MIDDLEWARE ----> Think of the middlware as an additional layer of security that examines
+                 requests going through our application.
+           ----> It provides a convenient mechanism for inspecting the HTTP request entering our application.
+
+We will create our own MIDDLEWARE. What is basis? If the role_id of the user is 1, that User is Admin
+If the role_id of the user is 2, that user is a regular user.
+
+1 = Admin
+2 = User
+
+
+Below the app folder,
+--> bootstrap folder..... This folder is not the getbootstrap for styling layout.
+    this bootstrap use is to run any other file/source when the Laravel app is boot up/ Running
+*******************
+Goal For Today - June 25
+
+1. Gate -- We will use the gate to hide the "Admin Button" to the users that are not administrator
+2. Mailtrap -- Use for email testing. When the user is going to register, we will send them successful registration notification message
+3. Database Seeder -- Seeding the database with initial values/initial data
+
+Gate - Determines if a user is authorized to perform a given action.
+
+
+CategorySeeder --  to create initial data to categories table
+AdminSeeder -- to create initial admin user in the users table
